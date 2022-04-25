@@ -1,0 +1,92 @@
+
+/** HEADER **/
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-radius: 0;
+    border: 0;
+}
+ #nav-bar{
+    background: #909090;
+    width: 100%; 
+    font-family: 'Ubuntu', sans-serif;
+ }
+ .navbar-brand {
+        padding-top: 25px;
+}
+.navbar-nav {
+    text-align: center;
+}
+.navbar-nav li{
+    padding: 0 10px;
+
+}
+.navbar-nav li a{
+    text-align: center;    
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.5s ease;
+}
+.navbar ul li a:hover{
+    color: #E3170A !important;
+} 
+h1 { /* Restaurant */
+    font-family: 'Lora', serif;
+    color: #A9E5BB;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222;
+    line-height: .75;
+    text-align:center;
+    margin: 70px;
+    padding: 30px;
+    font-weight: 900;
+    font-style: normal;
+  }
+   .displayall{
+    position: relative;
+    top: 0;
+    margin: 15px;
+    padding: 50px;
+    border: 3px solid #000;
+}
+#dip1{
+    background-color:#E3170A;
+    color: #fff;
+}
+
+#dip2{
+    background-color: #FCF6B1;
+}
+
+#dip3{
+    background-color: #A9E5BB;
+
+}
+.displayall p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 26px;
+    font-weight: 500;
+}
+.display{
+    position: absolute;
+    top:0;
+    padding: 6px 75px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.navbar-toggler{
+    display: none;
+}
+@media (max-width: 576px) { 
+    .navbar-toggler{
+        display: inline;
+    }
+
+
+}
